@@ -1,0 +1,9 @@
+# 改行コードはリポジトリ内では LF に正規化し、チェックアウト時に環境依存で復元する
+* text=auto
+
+# Visual Studio が CRLF を前提とするファイル
+*.sln  text eol=crlf
+*.csproj text eol=crlf
+*.resx text eol=crlf
+*.settings text eol=crlf
+*.config text eol=crlf
