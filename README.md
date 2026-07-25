@@ -26,7 +26,7 @@ CH9329（USB HID エミュレータ）と USB ビデオキャプチャを組み�
 ## 動作環境
 
 - Windows
-- [.NET 6 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ## 使い方
 
@@ -73,7 +73,6 @@ Visual Studio 2022 でも `WinKvm.sln` をそのまま開けます。
 
 ## 既知の制限
 
-- ターゲットフレームワークが `net6.0-windows` のままです（.NET 6 はサポート終了済み）。
 - キーコード変換は日本語キーボード配列を前提としています。
 - 半角/全角キー、Windows キーには未対応です。
 - 修飾キーは Ctrl / Alt / Shift のみ扱います。
