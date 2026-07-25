@@ -80,7 +80,17 @@ Visual Studio 2022 でも `WinKvm.sln` をそのまま開けます。
 
 ## 参考
 
-- [CH9329 - WCH（南京沁恒）](https://www.wch-ic.com/products/CH9329.html) — チップのデータシートおよびシリアルコマンド仕様
+### CH9329 のドキュメント
+
+上記コマンドの仕様は **データシートには記載されていません**。データシート自体が別文書を参照するよう指示しています（"For the specific protocol format, refer to `CH9329 Serial Communication Protocol_Vx.x.PDF`"）。
+
+| 文書 | 内容 | 入手先 |
+| --- | --- | --- |
+| CH9329 データシート<br>(`CH9329DS1.PDF` V1.1) | ピン配置、動作モード、電気特性 | [秋月電子](https://akizukidenshi.com/goodsaffix/ch9329.pdf) / [alldatasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/1148630/WCH/CH9329.html) |
+| CH9329 芯片串口通信协议<br>(V1.2、中国語) | **シリアルコマンドのフレーム仕様**。本アプリの実装はこれに基づく | メーカー (WCH) 配布の `CH9329EVT.ZIP` に同梱。[Gitee 上のコピー](https://gitee.com/dsiclu/mouse/blob/master/CH9329%E8%8A%AF%E7%89%87%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.PDF)（第三者リポジトリ） |
+
+### ツール
+
 - [hry2566/v4w2-ctl](https://github.com/hry2566/v4w2-ctl) — Windows 版の `v4l2-ctl` 相当。キャプチャデバイス名や対応フォーマットを事前に調べるのに便利です（WinKvm の動作には不要）
 
 ## ライセンス
