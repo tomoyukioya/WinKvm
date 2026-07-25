@@ -88,6 +88,7 @@ Visual Studio 2022 でも `WinKvm.sln` をそのまま開けます。
 | --- | --- | --- |
 | CH9329 データシート<br>(`CH9329DS1.PDF` V1.1) | ピン配置、動作モード、電気特性 | [秋月電子](https://akizukidenshi.com/goodsaffix/ch9329.pdf) / [alldatasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/1148630/WCH/CH9329.html) |
 | CH9329 芯片串口通信协议<br>(V1.2、中国語) | **シリアルコマンドのフレーム仕様**。本アプリの実装はこれに基づく | メーカー (WCH) 配布の `CH9329EVT.ZIP` に同梱。[Gitee 上のコピー](https://gitee.com/dsiclu/mouse/blob/master/CH9329%E8%8A%AF%E7%89%87%E4%B8%B2%E5%8F%A3%E9%80%9A%E4%BF%A1%E5%8D%8F%E8%AE%AE.PDF)（第三者リポジトリ） |
+| キーボード／マウス エミュレータ 解説書<br>（みんなのラボ、日本語） | CH9329 搭載モジュール `MR-CH9329EMU` の解説。コマンドの日本語での解説があり、最初に読むならこれが分かりやすい | [マルツ電子](https://www.marutsu.co.jp/contents/shop/marutsu/datasheet/minnanolab_MR-CH9329EMU.pdf) |
 
 ### ツール
 
