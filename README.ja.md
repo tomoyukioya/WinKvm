@@ -1,3 +1,5 @@
+[English](README.md)
+
 # WinKvm
 
 CH9329（USB HID エミュレータ）と USB ビデオキャプチャを組み合わせた、Windows 用のソフトウェア KVM コンソールです。
